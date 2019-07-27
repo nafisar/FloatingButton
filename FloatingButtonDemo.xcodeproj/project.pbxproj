@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		78245DFB22EC3D3E00D1CF98 /* FloatingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78245DFA22EC3D3E00D1CF98 /* FloatingButton.swift */; };
 		789035C222EC36F9002FD3D7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789035C122EC36F9002FD3D7 /* AppDelegate.swift */; };
 		789035C422EC36F9002FD3D7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789035C322EC36F9002FD3D7 /* SceneDelegate.swift */; };
 		789035C622EC36F9002FD3D7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789035C522EC36F9002FD3D7 /* ContentView.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		78245DFA22EC3D3E00D1CF98 /* FloatingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingButton.swift; sourceTree = "<group>"; };
 		789035BE22EC36F9002FD3D7 /* FloatingButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FloatingButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		789035C122EC36F9002FD3D7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		789035C322EC36F9002FD3D7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78245DFC22EC453700D1CF98 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78245DFA22EC3D3E00D1CF98 /* FloatingButton.swift */,
+				789035C522EC36F9002FD3D7 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		789035B522EC36F9002FD3D7 = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +67,9 @@
 		789035C022EC36F9002FD3D7 /* FloatingButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				78245DFC22EC453700D1CF98 /* Views */,
 				789035C122EC36F9002FD3D7 /* AppDelegate.swift */,
 				789035C322EC36F9002FD3D7 /* SceneDelegate.swift */,
-				789035C522EC36F9002FD3D7 /* ContentView.swift */,
 				789035C722EC36FB002FD3D7 /* Assets.xcassets */,
 				789035CC22EC36FB002FD3D7 /* LaunchScreen.storyboard */,
 				789035CF22EC36FB002FD3D7 /* Info.plist */,
@@ -149,6 +160,7 @@
 				789035C222EC36F9002FD3D7 /* AppDelegate.swift in Sources */,
 				789035C422EC36F9002FD3D7 /* SceneDelegate.swift in Sources */,
 				789035C622EC36F9002FD3D7 /* ContentView.swift in Sources */,
+				78245DFB22EC3D3E00D1CF98 /* FloatingButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,7 +298,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "FloatingButtonDemo/Preview\\ Content";
-				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FloatingButtonDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -306,7 +318,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "FloatingButtonDemo/Preview\\ Content";
-				DEVELOPMENT_TEAM = 42KMS8LBB5;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = FloatingButtonDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
